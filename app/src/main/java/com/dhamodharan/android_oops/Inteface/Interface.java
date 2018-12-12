@@ -10,10 +10,11 @@ public class Interface extends AppCompatActivity {
   protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
+    // EX : 1
     speed speed =new A();
     speed.speed();
 
-
+    // EX : 2
     speed speed1=new B();
     speed1.speed();
   }
