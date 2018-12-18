@@ -21,6 +21,9 @@
     <activity android:name=".Inheritance.Single_Inheritance"/>
     <activity android:name=".Encapsulation.Encapsulation"/>
 
+    <activity android:name=".Polymorphism.Method_Override"/>
+    <activity android:name=".Polymorphism.Method_Overload"/>
+
   </application>
 
 </manifest>
