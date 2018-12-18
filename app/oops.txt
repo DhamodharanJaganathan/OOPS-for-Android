@@ -1,0 +1,261 @@
+A few aspects of Object Oriented development,it can help to make the best of your Android projects,
+
+Objects  and Classes
+Inheritance
+Interface
+Encapsulation
+Abstraction
+Polymorphism
+
+
+
+Objects:
+
+An object is an instance of a class.
+
+ Object - Instance of Class
+ 
+ Objects  and Classes
+
+A class is a blueprint from which objects are created. 
+It is a logical entity and the class contain field,methods,constructors,blocks , nested class  and interface.
+
+Syntax
+
+class <class_name>{  
+
+   field;  
+
+   method;  
+
+}  
+
+Object is an instance of class,
+it is the physical as well as logical entity whereas class is the logical entity only and objects have state and behaviour entity.
+
+Syntax:
+
+Classname objectname=new classname();
+
+
+Example: 
+
+Class - Dogs
+Data members or objects- size, age, color, breed, etc.
+Methods- eat, sleep, sit and run.
+
+
+
+
+Inheritance:
+
+Inheritance is an important pillar of OOP(Object Oriented Programming).
+It is the mechanism in java by which one class is allow to inherit the features(fields and methods) of another class.
+
+Sub Class/Child Class: 
+Subclass is a class which inherits the other class. It is also called a derived class, extended class, or child class.
+
+Super Class/Parent Class:
+Superclass is the class from where a subclass inherits the features. It is also called a base class or a parent class.
+
+The syntax of Java Inheritance
+
+class Subclass-name extends Superclass-name  
+{  
+   //methods and fields  
+}  
+
+The extends keyword indicates that you are making a new class that derives from an existing class. The meaning of "extends" is to increase the functionality.
+
+In the terminology of Java, a class which is inherited is called a parent or superclass, and the new class is called child or subclass.
+
+Types of Inheritance:
+
+Single Inheritance
+
+Multi level Inheritance
+
+Hierarchical Inheritance
+
+Multiple Inheritance
+
+
+
+
+
+Interface : 
+
+interfaces can have abstract methods and variables. It cannot have a method body.
+
+An interface is declared by using the interface keyword. 
+It provides total abstraction; means all the methods in an interface are declared with the empty body,
+ and all the fields are public, static and final by default.
+ A class that implements an interface must implement all the methods declared in the interface.
+
+
+There are mainly three reasons to use interface. They are given below.
+
+It is used to achieve abstraction.
+By interface, we can support the functionality of multiple inheritance.
+
+
+Note : 
+
+Tight coupling 
+
+if you want to change the skin, you would also HAVE TO change the design of your body as well because the two are joined together - they are tightly coupled.
+
+
+Loose coupling
+
+If you change your shirt, then you are not forced to change your body - when you can do that, then you have loose coupling. When you can't do that, then you have tight coupling.
+
+
+
+It can be used to achieve loose coupling.
+
+
+
+
+
+
+
+
+Encapsulation
+
+Technically in encapsulation, the variables or data of a class is hidden from any other class and can be accessed only through any member function of own class in which they are declared.
+As in encapsulation, the data in a class is hidden from other classes, so it is also known as data-hiding.
+Encapsulation can be achieved by: Declaring all the variables in the class as private and writing public methods in the class to set and get the values of variables.
+
+
+Benefits of Encapsulation
+
+The fields of a class can be made read-only or write-only.
+
+A class can have total control over what is stored in its fields.
+
+
+
+
+
+
+Polymorphism
+
+Polymorphism in Java is a concept by which we can perform a single action in different ways. 
+
+Polymorphism is derived from 2 Greek words: poly and morphs. 
+
+The word "poly" means many and "morphs" means forms. So polymorphism means many forms.
+
+
+There are two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism.
+
+ We can perform polymorphism in java by method overloading and method overriding.
+
+
+Compile - time polymorphism - Overloading
+
+runtime polymorphism - overriding    ---->  Important 
+
+
+
+
+
+Overriding 
+
+Method Overriding
+Method Overriding is redefining a super class method in a sub class.
+
+Rules for Method Overriding
+
+The method signature i.e. method name, parameter list and return type have to match exactly.
+The overridden method can widen the accessibility but not narrow it, i.e. if it is private in the base class, the child class can make it public but not vice versa.
+
+
+Note : Access modifiers
+
+Private : The private access modifier is accessible only within class.
+defalut : The default modifier is accessible only within package.
+protected :The protected access modifier is accessible within package and outside the package but through inheritance only.
+
+The protected access modifier can be applied on the data member, method and constructor. It can't be applied on the class.
+
+Public : The public access modifier is accessible everywhere. It has the widest scope among all other modifiers.
+
+
+https://www.javatpoint.com/method-overriding-in-java
+
+
+
+
+
+Overloading
+
+https://www.javatpoint.com/method-overloading-in-java
+
+If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.
+
+If we have to perform only one operation, having same name of the methods increases the readability of the program.
+
+Different ways to overload the method
+There are two ways to overload the method in java
+
+By changing number of arguments
+By changing the data type	
+
+
+https://www.javatpoint.com/java-tutorial
+
+
+
+Abstraction
+
+Abstraction 0 -100 % 
+
+Interface 100 %
+
+Abstraction use extends 
+
+Inteface use implements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Let’s discuss what are the features of Object Oriented Programming,
+
+1. Object             - Instance of Class
+2. Class               - Blue print of Object
+3. Encapsulation    - Protecting our Data
+4. Polymorphism   - Different behaviors at different instances
+5. Abstraction        - Hiding our irrelevant Data
+6. Inheritence        - One property of object is acquiring to another property of object
+
+
+Encapsulation is also defined as the mechanism for data hiding/data protection/data security. 
+Data hiding is achieved via access modifiers. If a data member is defined using the 'private'  access modifier,
+ it will be accessible within the boundary of the class. Meanwhile, if an access modifier is public, 
+ it will be accessible by everybody else. But this definition needs clarification. 
+ Let's see if it is true for the following 
