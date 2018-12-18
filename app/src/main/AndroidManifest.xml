@@ -24,6 +24,8 @@
     <activity android:name=".Polymorphism.Method_Override"/>
     <activity android:name=".Polymorphism.Method_Overload"/>
 
+    <activity android:name=".Abstract.Abstract"/>
+
   </application>
 
 </manifest>
