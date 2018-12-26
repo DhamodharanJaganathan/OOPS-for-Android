@@ -4,6 +4,7 @@ public class Model_Encapsulation {
 
   private String Wheel;
   private String Tyre;
+  private int price;
 
   public String getWheel() {
     return Wheel;
@@ -28,7 +29,5 @@ public class Model_Encapsulation {
   public void setPrice(int price) {
     this.price = price;
   }
-
-  private int price;
 
 }
